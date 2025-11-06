@@ -16,7 +16,7 @@ class Cl  extends Component
            <div className="navbar">
              <img src={magic} className='magic'/>
              
-                <Link to="">Home</Link>
+                <Link to="/">Home</Link>
                 <Link to="/Shopping">Shopping</Link>
                 <Link to="/contact">Contact</Link>
                 <Link to="/Services">Services</Link>
