@@ -8,7 +8,8 @@ import logo3 from './image/jen.main.png'
 class Shopping extends Component{
  
 
-    submitform(){
+    submitform(event){
+   
     alert("Thanks to show may web page");
   }
   
@@ -125,20 +126,19 @@ class Shopping extends Component{
        </div>
       
              
-    <form className='sign '>
+    <form className='sign ' onSubmit={this.submitform.bind()}>
      
           <div className='text'>
-              <p>Sign Up</p>
-              Enter your Email ID
+              <p>sign Up</p>
+              Enter your Massage 
           </div>
-          <form className='email' onSubmit={this.submitform.bind()}>
+          
             <div className='tera'>
-            <textarea/>
+             <textarea  name="message" rows="5" cols="50"
+  placeholder="Type your message here..."></textarea>
+            <button type='submit'>Done</button>
             </div>
-            <div className=''>
-               <button type='submit'>Done</button>
-            </div>
-          </form>
+          
        
        </form>
        <div className="footer">
@@ -162,7 +162,6 @@ class Shopping extends Component{
             <p>Costomer</p>
             <p>Comming Up</p>
             <p>New Arrival</p>
-
         </div>
         <div className="footertext">
             <h2>Trending</h2>

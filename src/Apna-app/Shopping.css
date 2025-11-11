@@ -60,47 +60,38 @@ span{
 }
 .sign{
   background-color: rgb(218, 215, 250);
-  margin: 0% 8% 0% 8% ;
-  padding: 20px;
+  margin: 0% 8% 0% 8%;
+  padding: 1%;
+ display: flex;
   width: 80%;
   height: 60px;
-  overflow: hidden;
-  border: none;
 }
 .text{
-  width: 30%;
-  float: left;
- margin-left: 30px;
- 
+  width:50%;
+  /* background-color: aqua; */
+} 
+.tera{
+  width: 50%;
+  margin-top:5px;
+  /* background-color: black; */
+  display: flex;
 }
-.text p{
-  font-size: 30px;
-}
-.email textarea{
-width: 40%;
-height: 30px;
-float: left;
-font-size: 20px;
-}
-.email button{
-  float: left;
-  width: 100px;
-  height: 40px;
-}
+
+
 .footer{
+  margin: 0% 8% 0% 8% ;
   width: 80%;
-  
-   margin: 5px 8% 0% 8% ;
+  padding: 1%;
   height: 300px;
-  padding: 20px;
-  background-color: blueviolet;
- overflow:scroll ;
- scrollbar-width: none;
+   background-color: blueviolet;
+  display: flex;
 }
 .footertext{
+  width: 20%;
   float: left;
-  height: 200px;
-  margin: 30px;
+  height: 230px;
+  padding: 5%;
+  overflow: hidden;
  
  
   

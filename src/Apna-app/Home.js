@@ -5,7 +5,7 @@ import { Component } from 'react'
 class Home extends Component {
  
   submitform(event){
-    event.preventDefault();
+  
     alert("Thanks to show may web page");
   }
  
@@ -20,7 +20,7 @@ render(){
         <div className='form' onSubmit={this.submitform.bind()}>
         <form>
           Enter your Name<br/>
-          <input type='text' name='text' required/><br/>
+          <input type='text' name='name' required/><br/>
           <br/>
           Enter your Last name<br/>
           <input type='email' name='email'  required/><br/><br/>
