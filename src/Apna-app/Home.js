@@ -5,8 +5,13 @@ import { Component } from 'react'
 class Home extends Component {
  
   submitform(event){
-  
+   event.preventDefault();
+   const username = event.target.name.value;
+    console.log("Form submitted with:", username);
+
     alert("Thanks to show may web page");
+    
+    
   }
  
 render(){
