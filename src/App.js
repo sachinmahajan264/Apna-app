@@ -14,17 +14,8 @@ import TemperatureConverter from './TemperatureConverter';
 render(){
   return(
     <div>
-      <Cl/>
-      {/* <TemperatureConverter/> */}
-      <div>
-      <Routes>
-         <Route path='' element={<Home/>}/>
-        <Route path='/Shopping' element={<Shopping/>}/>
-        <Route path='/Contact' element={<Counter/>}/>
-        
-      </Routes>
+    
     </div>
-  </div>
   )
 }
 
