@@ -6,7 +6,8 @@ import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import Shopping from './Apna-app/Shopping'
 import Home from './Apna-app/Home';
 import Contact from './Apna-app/Contact';
-// import TemperatureConverter from './TemperatureConverter';
+import Counter from './Counter';
+import TemperatureConverter from './TemperatureConverter';
 
 
  export default class App extends Component{
@@ -19,7 +20,8 @@ render(){
       <Routes>
          <Route path='' element={<Home/>}/>
         <Route path='/Shopping' element={<Shopping/>}/>
-        <Route path='/Contact' element={<Contact/>}/>
+        <Route path='/Contact' element={<Counter/>}/>
+        
       </Routes>
     </div>
   </div>
