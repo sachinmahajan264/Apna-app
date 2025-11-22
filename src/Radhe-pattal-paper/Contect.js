@@ -115,26 +115,9 @@ export default function Contect() {
 
               <button type='submit'className='button' >Submit</button>
             </div>
-
-
-
-
-
-
-          </div>
+   </div>
       </form>
     </div>
-                  
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     </div>
   )
 }
