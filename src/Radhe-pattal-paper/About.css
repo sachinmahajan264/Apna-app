@@ -17,6 +17,9 @@
     text-align: center;
     font-style: italic;
 }
+.hh1{
+    text-align: center;
+}
 .paper-row{
     width: 90%;
     height: 200px;
@@ -30,7 +33,7 @@
 .pat1{
     width: 50%;
     display: flex;
-    background-color: blanchedalmond;
+    /* background-color: blanchedalmond; */
 }
 .pat2{
     width: 44%;

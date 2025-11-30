@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { app, analytics } from '../Firebase';
 import { getDatabase,ref,set} from 'firebase/database';
 import './Contect.css'
+import Arun from './pattal/arun paper .jpg'
 
 export default function Contect() {
   const [data,setData]=useState({
@@ -72,6 +73,9 @@ export default function Contect() {
 
   return (
     <div className='contect'>
+      <div className='aurn'>
+        <img src={Arun} className='imgarun'/>
+      </div>
       <div className='detail'>
         <h1 className='h1'>Add Your Details & Order Now</h1>
       </div>
@@ -100,7 +104,7 @@ export default function Contect() {
             </div>
              <div className='text'>
               <label htmlFor='address'>Address :</label><br/>
-             <textarea name="address" value={data.address} onChange={onchanged} rows="3" cols="38" id="address" placeholder="Type your Proper Address" />
+             <textarea name="address" value={data.address} onChange={onchanged} rows="4" cols="38" id="address" placeholder="Type your Proper Address" required  className='input4' />
             </div>
             <div>
              <button type='reset' className='button' onClick={() => setData({
@@ -117,7 +121,8 @@ export default function Contect() {
             </div>
 
 
-
+        
+         
 
 
 
