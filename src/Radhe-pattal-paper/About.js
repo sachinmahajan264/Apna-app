@@ -84,18 +84,16 @@ export default function About() {
          <div className='pat2'>
             <b>Quantity 20/, Quality (Kela Pattal / Sal pattal)</b> 
                 <ol>
-                <li><b>Green</b></li>
-                  <ul>
-                    <li>Price : <b>28₹  <i>(80 GSM)</i></b></li>
-                    <li>Price : <b>28₹  <i>(100 GSM)</i></b></li>
-                    <li>Price : <b>28₹  <i>(120 GSM)</i></b></li>
-                 </ul>
                 
                 <li><b>Silver</b></li>
                     <ul>
-                    <li>Price : <b>28₹  <i>(80 GSM)</i></b></li>
-                    <li>Price : <b>28₹  <i>(100 GSM)</i></b></li>
-                    <li>Price : <b>28₹  <i>(120 GSM)</i></b></li>
+                    <li>Price : <b>19₹  <i>(80 GSM)</i></b></li>
+                    <li>Price : <b>24₹  <i>(100 GSM)</i></b></li>
+                    <li>Price : <b>26₹  <i>(120 GSM)</i></b></li>
+                 </ul>
+                <li><b>Green</b></li>
+                  <ul>
+                  <li>none </li>
                  </ul>
                   
                 </ol>
@@ -281,11 +279,11 @@ export default function About() {
 
        </div>
          <div className='pat2'>
-            <b>Quantity 25/, Quality (Kela Pattal / Sal pattal)</b> 
+            <b>Quantity 24/, Quality (Kela Pattal / Sal pattal)</b> 
                 <ol>
                <li><b>Silver (8 inch)</b></li>
                   <ul>
-                    <li>Price : <b>5₹  <i>(100 GSM)</i></b></li>
+                    <li>Price : <b>10₹  <i>(100 GSM)</i></b></li>
                   </ul>
                   
                
