@@ -41,7 +41,7 @@ export default function About() {
                 <ol>
                 <li><b>Green</b></li>
                   <ul>
-                    <li>Price : <b>34₹  <i>(140 GSM)</i></b></li> 
+                    <li>Price : <b>35₹  <i>(140 GSM)</i></b></li> 
                   </ul>
                 
                 <li><b>Silver</b></li>
