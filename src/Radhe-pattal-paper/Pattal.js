@@ -17,7 +17,7 @@ export default function Pattal(props){
       <div>
       <Nav/>
         <Routes>
-          <Route path='/Arun Profil' element={<Arun/>}/>
+          <Route path='/arun' element={<Arun/>}/>
             <Route path='/' element={<Home  openwith={openwith}/>}/>
             <Route path='/About' element={<About/>}/>
             <Route path='/contect' element={<Contect/>}/>
