@@ -3,7 +3,7 @@ import './App.css';
 import { Component } from 'react';
 import Pattal from './Radhe-pattal-paper/Pattal';
 
- class App extends Component{
+ export default class App extends Component{
   constructor(props){
     super(props)
     

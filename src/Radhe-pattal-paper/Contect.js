@@ -129,17 +129,6 @@ export default function Contect() {
           </div>
       </form>
     </div>
-                  
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     </div>
   )
 }
