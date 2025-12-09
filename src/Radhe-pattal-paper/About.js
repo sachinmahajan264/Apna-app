@@ -218,7 +218,7 @@ export default function About() {
               </div>
       </div> 
 
-      <hr/><hr/><br/>
+      <hr/><hr/> <br/>
        <h2 className='hh1'>Daimond Dona Silver (6,7 inch)</h2>
                 <div className='paper-row'>
         <div className='pat1'>
