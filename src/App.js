@@ -18,10 +18,3 @@ render(){
   )
 }
  }
-export default App;
-
-
-
-
-
- 
