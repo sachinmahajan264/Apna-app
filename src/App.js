@@ -12,9 +12,9 @@ render(){
   
   return(
   <div>
-   <Pattal/>
-   
-  </div>
+        <Pattal />
+ </div>
+
   )
 }
  }

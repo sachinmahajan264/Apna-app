@@ -9,14 +9,14 @@ export default function Nav() {
    <div className={style.navebar}>
     
      
-          <div>
+         <div>
           <Link to='/arun'> <img src={logo}
             alt="Image from URL" className={style.image}/>
             </Link>
             </div>
-        <Link to='/' className={style.link}>Home</Link>
-         <Link to='/About' className={style.link}>About</Link>
-          <Link to='/contect' className={style.link}>Contect</Link>
+        <Link to='/' className={style.link}><i>Home</i></Link>
+         <Link to='/About' className={style.link}><i>About</i></Link>
+          <Link to='/contect' className={style.link}><i>Contect</i></Link>
    </div>
    </>
   )
